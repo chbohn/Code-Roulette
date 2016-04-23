@@ -11,24 +11,18 @@ var path = __dirname + '/views/';
 
 // POST http://localhost:8080/api/users
 // parameters sent with 
-app.post('/main.html', function(req, res) {
+/*app.post('/main.html', function(req, res) {
     var usr_name = req.body.user;
     var usr_password = req.body.pass;
 
     res.send(usr_name + ' ' + usr_password);
-});
+});*/
 
 app.post('/main.html', function(req, res) {
-    res.send('Us@@@ername: ' + req.body.user);
+    res.send('Username: ' + req.body.test);
+	res.redirect('/main.html');
 });
 
-app.post('/main.html', function(req, res) {
-    res.send('Us@@@ername: ' + req.body.pass);
-});
-
-app.post('/main.html', function(req, res) {
-    res.send('Us@@@ername: ' + req.body.test);
-});
 
 router.use(function (req,res,next) {
   console.log("/" + req.method);
