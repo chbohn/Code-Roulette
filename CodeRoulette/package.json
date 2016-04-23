@@ -1,0 +1,25 @@
+{
+  "name": "coderoulette",
+  "version": "1.0.0",
+  "scripts" : {
+    "start" : "node Server.js"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chbohn/Code-Roulette.git"
+  },
+  "author": "CS Club",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chbohn/Code-Roulette/issues"
+  },
+  "homepage": "https://github.com/chbohn/Code-Roulette#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
