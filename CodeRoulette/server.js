@@ -20,7 +20,8 @@ var path = __dirname + '/views/';
 
 app.post('/main.html', function(req, res) {
     res.send('Username: ' + req.body.test);
-	res.redirect('/main.html');
+	res.sendFile(path+"/main.html");
+	//res.redirect('/main.html');
 });
 
 
