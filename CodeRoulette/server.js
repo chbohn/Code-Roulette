@@ -22,6 +22,13 @@ app.post('/main.html', function(req, res) {
     res.send('Us@@@ername: ' + req.body.user);
 });
 
+app.post('/main.html', function(req, res) {
+    res.send('Us@@@ername: ' + req.body.pass);
+});
+
+app.post('/main.html', function(req, res) {
+    res.send('Us@@@ername: ' + req.body.test);
+});
 
 router.use(function (req,res,next) {
   console.log("/" + req.method);
