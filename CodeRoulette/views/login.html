@@ -17,21 +17,31 @@
   <body>
 
     <body class="align">
+	
+		<form method="post" action="/main.html">
+    <input type="text" name="test">
+    <input type="submit">
+</form>
+	
 
   <div class="site__container">
 
     <div class="grid__container">
+	
 
-      <form action="views/main.html" method="post" class="form form--login">
-		<p style="font-size: 3.5em;text-align:center;">Welcome to CodeRoulette!</p>
+	
+<p style="font-size: 3.5em;text-align:center;">Welcome to CodeRoulette!</p>
+      <form action="/main.html" method="post" class="form form--login">
+		
         <div class="form__field">
-          <label class="fontawesome-user" for="login__username"><span class="hidden">Username</span></label>
-          <input id="login__username" type="text" class="form__input" placeholder="Username" required>
+          <label class="fontawesome-user" for="login__username"><span class="hidden">Name</span></label>
+          <input id="login__username" name ="user" type="text" class="form__input" placeholder="Username" required>
         </div>
+		
 
         <div class="form__field">
           <label class="fontawesome-lock" for="login__password"><span class="hidden">Password</span></label>
-          <input id="login__password" type="password" class="form__input" placeholder="Password" required>
+          <input id="login__password" name ="pass" type="text" class="form__input" placeholder="Password" required>
         </div>
 
         <div class="form__field">
