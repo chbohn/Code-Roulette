@@ -1,0 +1,23 @@
+{
+  "name": "coderoulette",
+  "version": "1.0.0",
+  "description": "Code Roulette",
+  "main": "sql.js",
+  "dependencies": {
+    "share": "^0.7.40"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chbohn/Code-Roulette.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chbohn/Code-Roulette/issues"
+  },
+  "homepage": "https://github.com/chbohn/Code-Roulette#readme"
+}
