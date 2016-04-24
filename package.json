@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Code Roulette",
   "main": "sql.js",
+  "private":"true",
   "dependencies": {
     "share": "^0.7.40"
+	"socket.io":"0.9.16",
+	"express":"3.2.6"
   },
   "devDependencies": {},
   "scripts": {
@@ -20,4 +23,15 @@
     "url": "https://github.com/chbohn/Code-Roulette/issues"
   },
   "homepage": "https://github.com/chbohn/Code-Roulette#readme"
+}
+
+
+{
+	"name":"chat",
+	"version":"0.0.1",
+	"private":"true",
+	"dependencies":{
+		"socket.io":"0.9.16",
+		"express":"3.2.6"
+	}
 }
